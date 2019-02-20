@@ -33,7 +33,5 @@ cacheSolve <- function(x, ...) {
     inverse
 }
 
-mat1 <- makeCacheMatrix(matrix(1:4, 2,2))
-mat1$get()
-cacheSolve(mat1)
+
 
